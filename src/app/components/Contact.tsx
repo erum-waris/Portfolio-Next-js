@@ -34,13 +34,13 @@ const ContactForm: React.FC = () => {
     <div className="flex justify-center items-center h-screen relative">
       {showPopup && (
         <div className="absolute top-10 md:top-2 left-1/2 transform -translate-x-1/2 bg-green-500 text-white py-2 px-4 rounded-md shadow-md">
-         Congrates! Your message has been sent!
+         Congrates Your message has been sent!
         </div>
       )}
 
       <form
         onSubmit={handleSubmit}
-        className="bg-blue-200 shadow-lg rounded-lg p-8 max-w-md w-full"
+        className=" shadow-lg rounded-lg p-8 absolute top-[20] max-w-md w-full"
       >
         <h2 className="text-4xl font-bold mb-6 text-center">Contact Us</h2>
         
