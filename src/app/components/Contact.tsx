@@ -1,6 +1,7 @@
 "use client"
 
-import { useState } from 'react';
+
+import { useState}  from 'react';
 
 const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -58,7 +59,7 @@ const ContactForm: React.FC = () => {
         </div>
         
         <div className="mb-4">
-          <label htmlFor="fatherName" className="block text-gray-700">Father's Name</label>
+          <label htmlFor="fatherName" className="block text-gray-700">Father Name</label>
           <input
             type="text"
             name="fatherName"
