@@ -3,11 +3,11 @@ import Image from "next/image"
 import Button from './Button'
 function HeroSection() {
   return (
-    <div  className='flex flex-col m-10 md:pt-20 md:mt-0 mb-10 md:mb-5 md:flex-row'>
+    <div  className='flex flex-col m-0 pt-5 md:pt-20 md:mt-0 mb-10 md:mb-5 md:flex-row pl-10'>
         <div className='md:m-10 lg:w-full lg:h-full '>
 
-        <Image src="/images/developer.webp" alt="image" width="350" height="350"
-        className='col-span-5 place-self-center lg:w-[500px] lg:h-[450px] rounded-full  hover:animate-bounce'/>
+        <Image src="/images/Erum_Logo.jpeg" alt="image" width="350" height="350"
+        className='col-span-5 place-self-center lg:w-[450px] lg:h-[450px] rounded-full  hover:animate-bounce'/>
   </div>
   <div className='md:m-4 md:p-4' >
         <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-600 to-blue-500 font-semibold mb-3 mt-10 text-4xl md:text-4xl font-serif hover:animate-pulse'>Hi I am </h1> 
