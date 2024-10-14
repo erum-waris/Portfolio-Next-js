@@ -67,10 +67,10 @@ const projects = [
     url: "https://static-resume-xi-roan.vercel.app/",
   },
 ];
-
+ 
 const Project: React.FC = () => {
   return (
-    <div className="container mx-auto  bg-black mb-8 p-8">
+    <div className="container mx-auto mb-8 p-8">
       <h2 className="lg:text-4xl md:text-4xl text-3xl  font-bold text-center mb-24 text-white">
         My{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-500 via-pink-500 to-blue-400 font-serif lg:text-5xl md:text-5xl text-4xl">

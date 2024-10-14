@@ -41,4 +41,6 @@ const images = [
   );
 };
 
+
+
 export default ImageSlider;
